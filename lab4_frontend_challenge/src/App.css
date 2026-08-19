@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 1rem 3rem 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 900px;
+  flex: 1;
+  box-sizing: border-box;
+}
+
+/* Footer styling matching the 900px card width */
+.footer-container, footer {
+  width: 100%;
+  max-width: 900px;
+  margin: 1.5rem auto 0 auto;
+  padding: 1.2rem 2.5rem;
+  background: #180c32;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45), 0 0 30px rgba(168, 85, 247, 0.2);
+  border: 1px solid rgba(232, 121, 249, 0.35);
+  text-align: center;
+  color: #e9d5ff;
+  font-size: 0.9rem;
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono', monospace;
+}

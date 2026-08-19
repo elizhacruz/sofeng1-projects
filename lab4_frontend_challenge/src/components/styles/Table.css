@@ -1,0 +1,83 @@
+/* Fade Up Animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 0 1rem;
+}
+
+/* Card Container with Header Gradient & Sans-Serif Font */
+.table-card,
+.info-card {
+  width: 100%;
+  max-width: 680px;
+  background: linear-gradient(135deg, #2e1065 0%, #0f172a 100%);
+  border-radius: 20px;
+  padding: 2.5rem;
+  box-shadow: 0 8px 30px rgba(147, 51, 234, 0.35);
+  border: 1px solid rgba(232, 121, 249, 0.3);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  animation: fadeUp 0.5s ease-out forwards;
+}
+
+/* Table Design */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: inherit;
+}
+
+.custom-table th {
+  color: #e879f9;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(232, 121, 249, 0.25);
+}
+
+.custom-table td {
+  color: #f3e8ff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.custom-table tbody tr:hover {
+  background: rgba(232, 121, 249, 0.1);
+}
+
+/* Info Cards for About / Contact */
+.info-card {
+  text-align: center;
+}
+
+.info-card h2 {
+  color: #e879f9;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.info-card p {
+  color: #f3e8ff;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+}

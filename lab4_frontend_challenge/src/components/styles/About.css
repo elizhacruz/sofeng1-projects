@@ -1,0 +1,39 @@
+.page-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem 3rem 1.5rem;
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.info-card {
+  padding: 2.5rem;
+  background: #180c32; /* Matches solid header color */
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45), 0 0 30px rgba(168, 85, 247, 0.2);
+  border: 1px solid rgba(232, 121, 249, 0.35);
+  color: #f3e8ff;
+  box-sizing: border-box;
+}
+
+.info-card h2 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.info-card p {
+  color: #f3e8ff;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.about-creator-title {
+  color: #e879f9;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  text-align: center;
+}

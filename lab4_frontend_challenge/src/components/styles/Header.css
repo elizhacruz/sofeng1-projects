@@ -1,0 +1,49 @@
+.top-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 2.5rem;
+  background: #180c32;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.45), 0 0 30px rgba(168, 85, 247, 0.2);
+  border: 1px solid rgba(232, 121, 249, 0.35);
+  margin: 1.5rem auto;
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.nav-logo {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 1.8rem;
+  align-items: center;
+}
+
+.nav-link {
+  color: #e9d5ff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #e879f9;
+}
+
+/* Highlights the text color for the page you are currently on */
+.nav-link.active {
+  color: #e879f9;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(232, 121, 249, 0.5);
+}
