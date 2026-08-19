@@ -1,0 +1,16 @@
+import '../styles/About.css';
+
+function About() {
+  return (
+    <div className="page-container">
+      <div className="card">
+        <h2 className="typewriter">About This Project</h2>
+        <p className="typewriter">
+          This application demonstrates component reusability, styling, and navigation using React and React Router DOM.
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default About;
